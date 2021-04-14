@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+django-debug-toolbar = "*"
+coverage = "*"
+flake8 = "*"
+pytest = "*"
+tox = "*"
+
+[packages]
+django = "*"
+argon2-cffi = "*"
+bcrypt = "*"
+pillow = "*"
+click = "*"
+opencv-python = "*"
+face-recognition = "*"
+uwsgi = "*"
+django-compressor = "*"
+
+[requires]
+python_version = "3.8"
